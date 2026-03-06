@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: docker/apache/Dockerfile
+    ports:
+      - "8085:80"
+    volumes:
+      - ./:/var/www/html
+      - ./var:/var/www/html/var
