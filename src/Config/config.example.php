@@ -11,9 +11,9 @@ return [
         'sqlite_path' => dirname(__DIR__, 2) . '/var/app.sqlite',
     ],
 	'stripe' => [
-		'publishable_key' => 'pk_test_REPLACE_ME',
-		'secret_key' => 'sk_test_REPLACE_ME',
-		'webhook_secret' => 'whsec_REPLACE_ME',
+		'publishable_key' => YOUR_STRIPE_PUBLISHABLE_KEY,
+		'secret_key' => YOUR_STRIPE_SECRET_KEY,
+		'webhook_secret' => YOUR_STRIPE_WEBHOOK_SECRET,
 	],
 ];
 
